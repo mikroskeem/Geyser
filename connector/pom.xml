@@ -132,12 +132,22 @@
                     <groupId>net.kyori</groupId>
                     <artifactId>adventure-text-serializer-gson</artifactId>
                 </exclusion>
+                <exclusion>
+                    <groupId>com.github.steveice10</groupId>
+                    <artifactId>packetlib</artifactId>
+                </exclusion>
             </exclusions>
+        </dependency>
+        <dependency>
+            <groupId>com.github.steveice10</groupId>
+            <artifactId>PacketLib</artifactId>
+            <version>54f761c</version>
+            <scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>io.netty</groupId>
             <artifactId>netty-resolver-dns</artifactId>
-            <version>4.1.43.Final</version>
+            <version>4.1.56.Final</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
